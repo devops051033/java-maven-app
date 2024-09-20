@@ -8,7 +8,7 @@ pipeline {
         stage("test") {
             steps {
                 echo 'testing the application.....'
-                echo 'building app -> ${APP_NAME} version ${NEW_VERSION}'
+                echo "building app -> ${APP_NAME} version ${NEW_VERSION}"
             }
         }
         
